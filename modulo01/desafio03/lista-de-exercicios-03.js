@@ -228,7 +228,7 @@
 
 
 
-// ******* Conversão entre Formatos
+// ******* Conversão entre Formatos *******
 // function paresParaObjeto(pares) {
 //   return Object.fromEntries(pares)
 // }
