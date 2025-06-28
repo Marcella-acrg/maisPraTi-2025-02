@@ -171,3 +171,4 @@ informações. Não é necessário interface gráfica, apenas funcionalidade ló
 ○ Gerar relatórios de ocupação para um hotel.
 ○ Permitir que o usuário avalie o hotel após a estadia, e armazenar essas avaliações dentro do objeto do hotel.
 
+##### 🚨🚨🚨 **Atenção! Os códigos estão em um único arquivo todos comentados, então, será necessário descomentar para que a execução seja efetivada.** 🚨🚨🚨

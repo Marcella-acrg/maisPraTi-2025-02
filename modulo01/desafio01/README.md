@@ -42,11 +42,4 @@
 
 15. Escreva um programa que gera e imprime os primeiros 10 números da sequência de Fibonacci utilizando um loop for.
 
-## **⚙ Configurações necessárias para rodar a resolução dos exercícios acima, cujos os códigos foram desenvolvidos utilizando a linguagem JavaScript**: 
-* Instalar o VsCode - [Link de instalação do Visual Studio CODE](https://code.visualstudio.com/download)
-* Instalar o nodeJs - [Link de instalação do NodeJs](https://nodejs.org/p)
-* Realizar o clone desse projeto, ou seja, em um diretório/pasta do seu computador, com o botão direito do mouse, abrir o gitbash ou o próprio cmd do computador e inserir o comando :  `git clone git@github.com:Marcella-acrg/maisPraTi-2025-02.git` 
-* Acessar o diretório supracitado no VsCode, abrir o terminal com o 'Command Prompt' e, em seguida, instalar a biblioteca prompt-sync inserindo no terminal o comando : `npm install prompt-sync`
-* Em **"Extensions"** do VsCode, buscar e instalar o **Code Runner** de *Jun Han*.
-
 ##### 🚨🚨🚨 **Atenção! Os códigos estão em um único arquivo todos comentados, então, será necessário descomentar para que a execução seja efetivada.** 🚨🚨🚨
