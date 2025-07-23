@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9f0f1;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+#importante {
+    border-top: 4px solid #d32f2f;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+nav {
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(202, 86, 9);
+    font-weight: bold;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+li.ingredientes {
+    list-style-type: none;
+}
+
+.destaque {
+    font-style: italic;
+    background-color: rgb(245, 231, 31);
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    max-width: 40rem;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-top: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 6.25rem;
+}
+
+button {
+    margin-top: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: inherit;
+}
+
+button:hover {
+    background-color: rgb(37, 49, 212);
+}

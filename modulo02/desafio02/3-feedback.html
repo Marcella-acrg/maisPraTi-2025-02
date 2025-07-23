@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de Feedback</h1>
+    </header>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua">
+
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero">
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep">
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade">
+
+        <label for="tipo">Tipo de Feedback:</label>
+        <select name="tipo" id="tipo" required>
+            <option value="">Selecione</option>
+            <option value="elogio">Elogio</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="mensagem">Feedback:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Deixe seu feedback" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
