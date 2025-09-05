@@ -1,0 +1,85 @@
+.movie-card {
+  width: 250px; 
+  color: #fff;
+  margin: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3; 
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 50%;
+  padding: 0.4rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  z-index: 2;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.2);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+}
+
+.rating span {
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  font-family: Arial, sans-serif;
+}
+
+.pagination button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem .8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #f5a329;
+  color: #000;
+}
+
+.pagination .page-number {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
