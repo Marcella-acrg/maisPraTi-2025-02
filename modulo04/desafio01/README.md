@@ -1,5 +1,5 @@
 # 🚀 Formação Desenvolvedor Full Stack Júnior Codifica e +PraTi 🚀 
-## Desafios de Programação em Java 
+### Desafios de Programação em Java 
 
 Este repositório contém a implementação de 8 exercícios em Java, relacionados ao módulo IV da formação desenvolvedor Full Stack que aborda conceitos fundamentais de **POO** (Programação Orientada a Objetos), **Generics**, **Imutabilidade**, **Design Patterns** e **Validação de Regras de Negócio**.
 
